@@ -37,7 +37,6 @@ export const useUxStore = defineStore('ux', {
     },
     toggleSubmenu() {
       this.sidebar.isSubmenuOpen = !this.sidebar.isSubmenuOpen
-      console.log(`uxStore.toggleSubmenu(): ${this.sidebar.isSubmenuOpen}`)
     },
   }
 })
